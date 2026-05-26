@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-meta-blue: #22C0FF;
+  --color-meta-dark: #131936;
+  --color-meta-gradiente: linear-gradient(90deg, #22C0FF 0%, #131936 100%);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
